@@ -31,3 +31,43 @@ body {
     text-wrap: balance;
   }
 }
+/* styles/globals.css */
+
+@keyframes gradient1 {
+  0% {
+    background: linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500));
+  }
+  100% {
+    background: linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500));
+  }
+}
+
+@keyframes gradient2 {
+  0% {
+    background: linear-gradient(to bottom right, var(--pink-500), var(--indigo-500));
+  }
+  100% {
+    background: linear-gradient(to bottom right, var(--pink-500), var(--indigo-500));
+  }
+}
+
+@keyframes gradient3 {
+  0% {
+    background: linear-gradient(to bottom right, var(--orange-500), var(--yellow-500));
+  }
+  100% {
+    background: linear-gradient(to bottom right, var(--orange-500), var(--yellow-500));
+  }
+}
+
+.gradient1 {
+  animation: gradient1 5s infinite alternate;
+}
+
+.gradient2 {
+  animation: gradient2 5s infinite alternate;
+}
+
+.gradient3 {
+  animation: gradient3 5s infinite alternate;
+}
